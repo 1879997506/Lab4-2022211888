@@ -24,7 +24,7 @@ public class Solution8Test {
         //测试用例：[[0,0],[0,0]]
         char[][] grid ={{'0','0'},{'0','0'}};
         Solution8 solution8 = new Solution8();
-        assertEquals(1,solution8.numIslands(grid));
+        assertEquals(0,solution8.numIslands(grid));
     }
 
     @Test
