@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * 测试输入范围的边界值，因为程序在边界条件下的行为经常会出现错误。
  * 对于本例，考虑矩阵的尺寸边界情况，如最小尺寸 1x1 和最大尺寸 300x300。
  */
-class Solution8Test {
+public class Solution8Test {
 
     @Test
     public void testWaterGrid(){
@@ -24,7 +24,7 @@ class Solution8Test {
         //测试用例：[[0,0],[0,0]]
         char[][] grid ={{'0','0'},{'0','0'}};
         Solution8 solution8 = new Solution8();
-        assertEquals(1,solution8.numIslands(grid));
+        assertEquals(0,solution8.numIslands(grid));
     }
 
     @Test
